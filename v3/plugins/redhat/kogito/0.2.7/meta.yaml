@@ -1,0 +1,15 @@
+apiVersion: v2
+publisher: redhat
+name: kogito
+version: 0.2.7
+type: VS Code extension
+displayName: Kogito tooling
+title: Kogito tooling
+description: Tooling for Kogito http://kogito.kie.org
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+repository: https://github.com/kiegroup/kogito-tooling
+category: Language
+firstPublicationDate: "2020-02-12"
+spec:
+  extensions:
+    - https://github.com/kiegroup/kogito-tooling/releases/download/0.2.7/vscode_extension_kogito_kie_editors_0.2.7.vsix
